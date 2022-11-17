@@ -1,0 +1,40 @@
+form {
+font-family: 'Roboto', sans-serif;
+width: 300px;
+padding: 20px;
+border-radius: 20px;
+margin: 0 auto;
+background: linear-gradient(#bd09b7, #6b4cf5);
+box-shadow: 5px 6px 3px 1px gray;
+color: white;
+}
+
+#email, #password {
+    padding: 5px;
+    width: 95%;
+}
+#terminos {
+    
+    margin-bottom: 30px;
+}
+
+#genero {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+label{
+display: block;
+margin-top: 10px;
+}
+#ingresar{
+padding: 5px 15px;
+float: right;
+
+}
+
+@media (max-width : 480px) {
+    form{
+        width: calc(100% - 40px);
+    }
+}
